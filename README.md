@@ -1,7 +1,5 @@
 # Trending Creator Signal
 
-Gates Higher Endeavor Technical Assessment
-
 ## What it does
 
 This delivers both items the brief requested, on one screen.
