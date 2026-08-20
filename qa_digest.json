@@ -1,0 +1,194 @@
+{
+  "definition": "Promising = top-quartile on BOTH reach (total views) AND resonance (engagement rate = (likes+comments+shares)/views). Verified status and repeat appearance are noted as confidence signals, not requirements.",
+  "dataset_scope": "1,000 trending TikTok videos, 802 distinct creators, Sep 22 - Dec 21 2020. NO follower counts available. 'Reach' = views only.",
+  "headline_stats": {
+    "total_videos": 1000,
+    "distinct_creators": 802,
+    "median_engagement_rate": 0.0889,
+    "pct_creators_verified": 5.4,
+    "promising_creator_count": 50,
+    "creators_appearing_more_than_once": 91,
+    "pct_creators_single_video": 88.7
+  },
+  "engagement_by_segment": {
+    "verified_median_engagement": 0.1042,
+    "unverified_median_engagement": 0.0851,
+    "repeat_creator_median_engagement": 0.1112,
+    "single_video_creator_median_engagement": 0.0846,
+    "original_sound_median_engagement": 0.0914,
+    "trending_sound_median_engagement": 0.0802
+  },
+  "top_15_promising_creators": [
+    {
+      "author_name": "cainguzman",
+      "total_views": 2991600,
+      "avg_engagement": 0.2364,
+      "verified": true,
+      "videos": 4
+    },
+    {
+      "author_name": "sxck.aesxthetics",
+      "total_views": 1500000,
+      "avg_engagement": 0.2923,
+      "verified": false,
+      "videos": 1
+    },
+    {
+      "author_name": "thedustinphillips",
+      "total_views": 3500000,
+      "avg_engagement": 0.2146,
+      "verified": false,
+      "videos": 1
+    },
+    {
+      "author_name": "jesungiya",
+      "total_views": 1100000,
+      "avg_engagement": 0.3068,
+      "verified": false,
+      "videos": 1
+    },
+    {
+      "author_name": "simpnationluis",
+      "total_views": 1500000,
+      "avg_engagement": 0.2112,
+      "verified": false,
+      "videos": 1
+    },
+    {
+      "author_name": "annie.dess",
+      "total_views": 1443000,
+      "avg_engagement": 0.2133,
+      "verified": false,
+      "videos": 2
+    },
+    {
+      "author_name": "rapperedits1244",
+      "total_views": 5400000,
+      "avg_engagement": 0.1615,
+      "verified": false,
+      "videos": 1
+    },
+    {
+      "author_name": "reus.fx",
+      "total_views": 465900,
+      "avg_engagement": 0.4007,
+      "verified": false,
+      "videos": 2
+    },
+    {
+      "author_name": "corpse_clipz",
+      "total_views": 607700,
+      "avg_engagement": 0.297,
+      "verified": false,
+      "videos": 1
+    },
+    {
+      "author_name": "n.ieke",
+      "total_views": 1200000,
+      "avg_engagement": 0.2045,
+      "verified": false,
+      "videos": 1
+    },
+    {
+      "author_name": "youneszarou",
+      "total_views": 4000000,
+      "avg_engagement": 0.157,
+      "verified": true,
+      "videos": 1
+    },
+    {
+      "author_name": "kylethomas",
+      "total_views": 4191200,
+      "avg_engagement": 0.1557,
+      "verified": true,
+      "videos": 4
+    },
+    {
+      "author_name": "xaaku",
+      "total_views": 786900,
+      "avg_engagement": 0.218,
+      "verified": false,
+      "videos": 3
+    },
+    {
+      "author_name": "petyyyyyy",
+      "total_views": 1200000,
+      "avg_engagement": 0.1826,
+      "verified": false,
+      "videos": 1
+    },
+    {
+      "author_name": "erinwilliams_1",
+      "total_views": 1745000,
+      "avg_engagement": 0.1667,
+      "verified": false,
+      "videos": 3
+    }
+  ],
+  "top_10_hashtags_by_video_count": {
+    "fyp": 112,
+    "foryou": 51,
+    "horadearrasar": 35,
+    "fy": 30,
+    "foryoupage": 30,
+    "duet": 29,
+    "stitch": 13,
+    "anime": 11,
+    "voorjou": 10,
+    "horse": 8
+  },
+  "engagement_rate_percentiles": {
+    "p25": 0.0549,
+    "p50": 0.0889,
+    "p75": 0.1331,
+    "p90": 0.1977
+  },
+  "views_percentiles": {
+    "p25": 46875,
+    "p50": 82500,
+    "p75": 218800,
+    "p90": 867330
+  },
+  "content_signals": {
+    "duration_buckets_median_engagement": {
+      "under_10s": 0.0735,
+      "10_20s": 0.0878,
+      "20_30s": 0.0957,
+      "30_60s": 0.1097
+    },
+    "duration_engagement_correlation": 0.164,
+    "original_sound_median_engagement": 0.0914,
+    "trending_sound_median_engagement": 0.0802,
+    "hashtag_presence_makes_no_meaningful_difference": true
+  },
+  "top10_top20_impact_vs_raw_views_top10": {
+    "our_top10_pct_of_views": 1.91,
+    "our_top10_pct_of_likes": 4.32,
+    "our_top10_pct_of_comments": 3.05,
+    "our_top10_pct_of_shares": 5.19,
+    "our_top20_pct_of_views": 6.3,
+    "our_top20_pct_of_all_engagement_actions": 11.0,
+    "raw_views_top10_pct_of_views": 60.23,
+    "raw_views_top10_pct_of_all_engagement_actions": 62.62,
+    "takeaway": "Our top 10 converts a much smaller view share into disproportionately higher engagement share (roughly 2x), while the raw-views top 10 has engagement share barely above its view share (near 1:1). That disproportion is the argument for using our score instead of raw views."
+  },
+  "reach_concentration": {
+    "top_10_creators_by_raw_views_share_of_total_views_pct": 60.2,
+    "top_50_creators_by_raw_views_share_of_total_views_pct": 83.2,
+    "note": "This is concentration by raw views ranking, different from our promising-creator score which only captures 1.9pct of total views since it also requires high engagement, not just high views"
+  },
+  "data_wed_want_next": [
+    "Location or country, to see if top creators cluster geographically and enable in-person activation (events, meetups, studio visits)",
+    "Follower count, to separate one-batch trending reach from real audience size",
+    "Account age or history, to distinguish an overnight spike from steady growth",
+    "A real content-category taxonomy, since hashtags are too noisy to use"
+  ],
+  "known_limitations": [
+    "No follower counts in the export; 'reach' means views on trending videos only, not audience size.",
+    "759 of 802 creators appear only once in this 3-month window, so 'consistency' can only be assessed for the 91 creators with 2+ videos.",
+    "147 of 1,000 videos have no primary_hashtag, so content-category signal is incomplete.",
+    "This is a single trending export, not the creator's full channel history.",
+    "No location, country, or language data exists in this export; geographic targeting can't be answered from this dataset.",
+    "Reach is concentrated: the 10 biggest accounts by raw views hold 60.2% of all views in this export, a handful of viral hits, not a representative spread. Our promising-creator score is built specifically to avoid just re-surfacing those same accounts."
+  ]
+}
