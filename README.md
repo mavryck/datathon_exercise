@@ -11,6 +11,8 @@ This delivers both items the brief requested, on one screen.
 
 **To run it.** Open `dashboard.html` in any browser. No installation is required. Enter an Anthropic API key in the field above the Q&A box to enable questions. The key stays in the browser and is never stored or sent anywhere except Anthropic. A light and dark mode toggle is available in the top right.
 
+![Demo of the dashboard](demo_of_feature.gif)
+
 ## Defining "promising"
 
 This dataset has no follower counts, so "promising" is defined using two signals. These two signals are genuinely independent: views and engagement rate show near-zero correlation.
